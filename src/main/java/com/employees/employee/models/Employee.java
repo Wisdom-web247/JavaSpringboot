@@ -14,6 +14,11 @@ public class Employee {
     private String department;
     private String contactNo;
 
+    //Default Constructor
+    public Employee(){
+
+    }
+
 
     //Parameterized Constructor to initialize variables
     public Employee(int empId, String firstName, String lastName, String email, String department, String contactNo) {
